@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norton Support Helpline</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #ffc107;
+            color: #000;
+        }
+        .header img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px 20px 60px 20px; /* Bottom padding to reserve space for button */
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .call-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: #000;
+            color: #ffc107;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #ffc107;
+        }
+        .call-button:hover {
+            background-color: #ffc107;
+            color: #000;
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .call-button::before {
+            content: '☎';
+            margin-right: 8px;
+        }
+        .global-call-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #000;
+            color: #ffc107;
+            padding: 10px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #ffc107;
+        }
+        .global-call-button:hover {
+            background-color: #ffc107;
+            color: #000;
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .global-call-button::before {
+            content: '☎';
+            font-size: 1.2em;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .section {
+                padding: 10px 10px 50px 10px; /* Adjusted bottom padding for mobile */
+            }
+            .section h2 {
+                font-size: 1.5em;
+            }
+            .call-button {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+            .global-call-button {
+                width: 35px;
+                height: 35px;
+            }
+            .global-call-button::before {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://1000logos.net/wp-content/uploads/2021/12/Norton-Logo-2019.png" alt="Norton Logo">
+            <h1>Norton Support Helpline</h1>
+            <p>Your Trusted Source for Cybersecurity, Protection, and Peace of Mind</p>
+        </div>
+
+        <div class="section">
+            <h2>Welcome to Norton Support</h2>
+            <p>Welcome to the official Norton Support Helpline page. Whether you're a long-time user or new to Norton, we know how critical it is to have reliable support for your cybersecurity needs. Our mission is to ensure your devices and data stay secure, with seamless support available 24/7.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Support</a>
+        </div>
+
+        <div class="section">
+            <h2>24/7 Help, Anytime You Need It</h2>
+            <p>Our dedicated support team is ready to assist with a wide range of issues, from installation problems to troubleshooting malware threats. Whether you need help with product activation, subscription management, or resolving technical issues, we’re just a call or message away.</p>
+            <ul>
+                <li>Installation and setup issues</li>
+                <li>Product activation and licensing</li>
+                <li>Malware and virus removal</li>
+                <li>Subscription renewals and billing</li>
+                <li>Performance optimization for Norton products</li>
+                <li>Account and login troubleshooting</li>
+                <li>Guidance on Norton features and settings</li>
+            </ul>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Help-Desk Support</a>
+        </div>
+
+        <div class="section">
+            <h2>Your Security Is Our Priority</h2>
+            <p>At Norton, protection is at the core of everything we do. Our advanced cybersecurity tools and global threat intelligence network keep your devices and data safe from evolving threats.</p>
+            <ul>
+                <li>Real-time threat detection and prevention</li>
+                <li>Secure VPN for private browsing</li>
+                <li>Password manager for enhanced security</li>
+                <li>Continuous monitoring for malware and phishing attempts</li>
+                <li>Parental controls for safe browsing</li>
+                <li>Proactive alerts for suspicious activity</li>
+            </ul>
+            <p>We work tirelessly to detect and block threats, and if something goes wrong, our team is here to help you recover quickly and securely.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Support</a>
+        </div>
+
+        <div class="section">
+            <h2>Resolving Issues with Ease</h2>
+            <p>If you encounter issues with your Norton products, our Help Center provides tools to troubleshoot and resolve problems efficiently. From software conflicts to performance issues, we guide you through every step to ensure your protection remains intact.</p>
+            <ul>
+                <li>Software compatibility issues</li>
+                <li>Failed scans or updates</li>
+                <li>Product performance troubleshooting</li>
+                <li>Guidance on using Norton features</li>
+            </ul>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Help-Desk Support</a>
+        </div>
+
+        <div class="section">
+            <h2>Support Tailored to You</h2>
+            <p>We understand that every user’s needs are unique. That’s why we offer multiple ways to get help, tailored to your situation:</p>
+            <ul>
+                <li>In-app Help Center for quick solutions</li>
+                <li>Comprehensive guides and FAQs on the Norton website</li>
+                <li>Personalized phone support for complex issues</li>
+            </ul>
+            <p>Whether you’re securing a single device or managing protection for a business, our team is equipped to assist.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Support</a>
+        </div>
+
+        <div class="section">
+            <h2>Continuous Improvements for Better Protection</h2>
+            <p>We’re always enhancing our products and support services to stay ahead of cyber threats. From new antivirus algorithms to streamlined support processes, we evolve to meet the demands of the digital world. Check our website regularly for updates to our Terms of Service and Privacy Policy.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Help-Desk Support</a>
+        </div>
+
+        <div class="section">
+            <h2>Legal & Compliance Information</h2>
+            <p>Norton operates under strict regulatory standards, ensuring our products and services meet global cybersecurity and privacy requirements. We maintain transparency in data handling and customer interactions to uphold the highest standards of integrity.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Support: +1-808-203-9863</a>
+        </div>
+
+        <div class="section">
+            <h2>Important Notice</h2>
+            <p>This website and its support services are designed to assist Norton users. We never request sensitive information like passwords or credit card details via email or phone. If you receive suspicious communication claiming to be from Norton, report it to our support team immediately.</p>
+            <p>For assistance, visit our official Help Center or contact us using the number on our website.</p>
+            <a href="tel:+1-808-203-9863" class="call-button">Call Norton Help-Desk Support</a>
+        </div>
+
+        <div class="footer">
+            <p>Disclaimer: This content is for general information and customer support purposes. Norton is a registered trademark of NortonLifeLock Inc. This page does not imply any partnership or endorsement unless explicitly stated. Refer to official Norton documentation for updated support details.</p>
+            <p>© 2025 NortonLifeLock Inc. All rights reserved.</p>
+        </div>
+
+        <a href="tel:+1-808-203-9863" class="global-call-button"></a>
+    </div>
+
+    <script>
+        document.querySelectorAll('.call-button, .global-call-button').forEach(button => {
+            button.addEventListener('click', () => {
+                // The href="tel:+1-808-203-9863" handles the call action, so no additional JS is needed
+            });
+        });
+    </script>
+</body>
+</html>
